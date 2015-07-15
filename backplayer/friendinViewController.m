@@ -75,6 +75,7 @@
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     friendinViewControllerTableViewCell * cell = sakuraCell[indexPath.row];
     cell.sakura = sakuras[indexPath.row];
+    [self.view layoutIfNeeded];
     return cell.Labelheight;
 }
 

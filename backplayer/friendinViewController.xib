@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="friendinViewController">
@@ -12,24 +12,32 @@
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
-            <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+            <rect key="frame" x="0.0" y="64" width="600" height="536"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="229" sectionHeaderHeight="22" sectionFooterHeight="22" id="yL2-wh-dKI">
-                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" placeholderIntrinsicWidth="600" placeholderIntrinsicHeight="600" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="229" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="yL2-wh-dKI">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="536"/>
                     <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                    <inset key="contentInset" minX="0.0" minY="10" maxX="0.0" maxY="0.0"/>
                 </tableView>
             </subviews>
             <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="yL2-wh-dKI" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="1Id-cI-lfy"/>
+                <constraint firstAttribute="trailing" secondItem="yL2-wh-dKI" secondAttribute="trailing" id="4IC-id-2fz"/>
+                <constraint firstItem="yL2-wh-dKI" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="5Po-PQ-Ltu"/>
+                <constraint firstItem="yL2-wh-dKI" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="SWV-Rc-z9s"/>
+                <constraint firstItem="yL2-wh-dKI" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="U85-eR-JbN"/>
+                <constraint firstAttribute="trailing" secondItem="yL2-wh-dKI" secondAttribute="trailing" id="f4m-Ok-Jet"/>
+                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="yL2-wh-dKI" secondAttribute="bottom" constant="-64" id="iuc-1b-DGB"/>
+                <constraint firstAttribute="bottom" secondItem="yL2-wh-dKI" secondAttribute="bottom" id="o2p-Sc-RnS"/>
+            </constraints>
             <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="iuc-1b-DGB"/>
+                </mask>
+            </variation>
             <point key="canvasLocation" x="361" y="266"/>
         </view>
     </objects>
-    <simulatedMetricsContainer key="defaultSimulatedMetrics">
-        <simulatedStatusBarMetrics key="statusBar"/>
-        <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination" type="retina4"/>
-    </simulatedMetricsContainer>
 </document>

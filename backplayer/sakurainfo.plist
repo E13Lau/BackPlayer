@@ -42,7 +42,7 @@
 		<key>mbtype</key>
 		<string>vip.png</string>
 		<key>profileImageUrl</key>
-		<string>touxiang1.jpg</string>
+		<string>m1.jpg</string>
 		<key>source</key>
 		<string>Iphone 6</string>
 		<key>text</key>
@@ -57,8 +57,6 @@
 		<string>上面代码中如果有些UITableViewCell的UISwitch设置为on当其他控件重用时状态也是on，解决这个问题可以在模型中设置对应的属性记录其状态，在生成cell时设置当前状态（为了尽可能简化上面的代码这里就不再修复这个问题）</string>
 		<key>source</key>
 		<string>Iphone Plus 6</string>
-		<key>profileImageUrl</key>
-		<string>touxiang1.jpg</string>
 		<key>mbtype</key>
 		<string>vip1.png</string>
 		<key>createAt</key>

@@ -14,6 +14,7 @@
 		EF153AC51A48FED000540CC1 /* XViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF153AC41A48FED000540CC1 /* XViewController.m */; };
 		EF153AC91A491FD000540CC1 /* friendinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF153AC71A491FD000540CC1 /* friendinViewController.m */; };
 		EF153ACA1A491FD000540CC1 /* friendinViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF153AC81A491FD000540CC1 /* friendinViewController.xib */; };
+		EF24F11D1B553DE500380729 /* m1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF24F11C1B553DE500380729 /* m1.jpg */; };
 		EF41DDFA1A5BCE730032E819 /* qwe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF41DDF91A5BCE730032E819 /* qwe.jpg */; };
 		EF4A825B1A411AF2003E1682 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4A825A1A411AF2003E1682 /* main.m */; };
 		EF4A825E1A411AF2003E1682 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4A825D1A411AF2003E1682 /* AppDelegate.m */; };
@@ -34,6 +35,9 @@
 		EF961A871A761E090064271F /* NearGroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF961A851A761E090064271F /* NearGroundViewController.m */; };
 		EF961A881A761E090064271F /* NearGroundViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF961A861A761E090064271F /* NearGroundViewController.xib */; };
 		EFB138AD1A417801006EA4AB /* G.E.M.邓紫棋 - 喜欢你.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EFB138AC1A417801006EA4AB /* G.E.M.邓紫棋 - 喜欢你.mp3 */; };
+		EFE58AA51B52A78A0053F40A /* AutoStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFE58AA41B52A78A0053F40A /* AutoStoryboard.storyboard */; };
+		EFE58AA81B52A9930053F40A /* AutoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE58AA71B52A9930053F40A /* AutoTableViewController.m */; };
+		EFE58AAB1B52A9BB0053F40A /* AutoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE58AAA1B52A9BB0053F40A /* AutoTableViewCell.m */; };
 		EFE72E561A4A8B2500D44046 /* XYZGGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE72E551A4A8B2500D44046 /* XYZGGViewController.m */; };
 		EFE72E5D1A4A960600D44046 /* XYZGGCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE72E5B1A4A960600D44046 /* XYZGGCollectionViewCell.m */; };
 		EFE72E5E1A4A960600D44046 /* XYZGGCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFE72E5C1A4A960600D44046 /* XYZGGCollectionViewCell.xib */; };
@@ -61,6 +65,7 @@
 		EF153AC61A491FD000540CC1 /* friendinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = friendinViewController.h; sourceTree = "<group>"; };
 		EF153AC71A491FD000540CC1 /* friendinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = friendinViewController.m; sourceTree = "<group>"; };
 		EF153AC81A491FD000540CC1 /* friendinViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = friendinViewController.xib; sourceTree = "<group>"; };
+		EF24F11C1B553DE500380729 /* m1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = m1.jpg; sourceTree = "<group>"; };
 		EF41DDF91A5BCE730032E819 /* qwe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = qwe.jpg; sourceTree = "<group>"; };
 		EF4A82551A411AF2003E1682 /* backplayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = backplayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF4A82591A411AF2003E1682 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -94,6 +99,11 @@
 		EF961A851A761E090064271F /* NearGroundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearGroundViewController.m; sourceTree = "<group>"; };
 		EF961A861A761E090064271F /* NearGroundViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NearGroundViewController.xib; sourceTree = "<group>"; };
 		EFB138AC1A417801006EA4AB /* G.E.M.邓紫棋 - 喜欢你.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "G.E.M.邓紫棋 - 喜欢你.mp3"; sourceTree = "<group>"; };
+		EFE58AA41B52A78A0053F40A /* AutoStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AutoStoryboard.storyboard; sourceTree = "<group>"; };
+		EFE58AA61B52A9930053F40A /* AutoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoTableViewController.h; sourceTree = "<group>"; };
+		EFE58AA71B52A9930053F40A /* AutoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoTableViewController.m; sourceTree = "<group>"; };
+		EFE58AA91B52A9BB0053F40A /* AutoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoTableViewCell.h; sourceTree = "<group>"; };
+		EFE58AAA1B52A9BB0053F40A /* AutoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoTableViewCell.m; sourceTree = "<group>"; };
 		EFE72E541A4A8B2500D44046 /* XYZGGViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZGGViewController.h; sourceTree = "<group>"; };
 		EFE72E551A4A8B2500D44046 /* XYZGGViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZGGViewController.m; sourceTree = "<group>"; };
 		EFE72E5A1A4A960600D44046 /* XYZGGCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZGGCollectionViewCell.h; sourceTree = "<group>"; };
@@ -218,6 +228,7 @@
 			children = (
 				EF02A8711A57F060006B5F11 /* sakurainfo.plist */,
 				EF02A8731A57F3E5006B5F11 /* touxiang1.jpg */,
+				EF24F11C1B553DE500380729 /* m1.jpg */,
 				EF153AC61A491FD000540CC1 /* friendinViewController.h */,
 				EF153AC71A491FD000540CC1 /* friendinViewController.m */,
 				EF153AC81A491FD000540CC1 /* friendinViewController.xib */,
@@ -261,6 +272,7 @@
 		EF6508F91A4E4A32001131AE /* 1 */ = {
 			isa = PBXGroup;
 			children = (
+				EFE58AA31B523E280053F40A /* Auto */,
 				EF515DF71A5A7DF500075D4C /* quan */,
 				EF153AC31A48FED000540CC1 /* XViewController.h */,
 				EF153AC41A48FED000540CC1 /* XViewController.m */,
@@ -295,6 +307,18 @@
 				EF961A861A761E090064271F /* NearGroundViewController.xib */,
 			);
 			name = NearGround;
+			sourceTree = "<group>";
+		};
+		EFE58AA31B523E280053F40A /* Auto */ = {
+			isa = PBXGroup;
+			children = (
+				EFE58AA41B52A78A0053F40A /* AutoStoryboard.storyboard */,
+				EFE58AA91B52A9BB0053F40A /* AutoTableViewCell.h */,
+				EFE58AAA1B52A9BB0053F40A /* AutoTableViewCell.m */,
+				EFE58AA61B52A9930053F40A /* AutoTableViewController.h */,
+				EFE58AA71B52A9930053F40A /* AutoTableViewController.m */,
+			);
+			name = Auto;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -379,6 +403,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF24F11D1B553DE500380729 /* m1.jpg in Resources */,
 				EFB138AD1A417801006EA4AB /* G.E.M.邓紫棋 - 喜欢你.mp3 in Resources */,
 				EF4A82641A411AF2003E1682 /* Main.storyboard in Resources */,
 				EFE72E5E1A4A960600D44046 /* XYZGGCollectionViewCell.xib in Resources */,
@@ -391,6 +416,7 @@
 				EF02A8741A57F3E5006B5F11 /* touxiang1.jpg in Resources */,
 				EF961A881A761E090064271F /* NearGroundViewController.xib in Resources */,
 				EF515DF61A5A7DE900075D4C /* musicTableViewController.xib in Resources */,
+				EFE58AA51B52A78A0053F40A /* AutoStoryboard.storyboard in Resources */,
 				EF515DFD1A5A7F9100075D4C /* muiscTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -446,6 +472,7 @@
 				EF515DF51A5A7DE900075D4C /* musicTableViewController.m in Sources */,
 				EF8014E01A5CE40300AAEB38 /* Items.m in Sources */,
 				EF6508FE1A4E535E001131AE /* friendinViewControllerTableViewCell.m in Sources */,
+				EFE58AA81B52A9930053F40A /* AutoTableViewController.m in Sources */,
 				EF4A82611A411AF2003E1682 /* ViewController.m in Sources */,
 				EFE72E5D1A4A960600D44046 /* XYZGGCollectionViewCell.m in Sources */,
 				EF515DFC1A5A7F9100075D4C /* muiscTableViewCell.m in Sources */,
@@ -457,6 +484,7 @@
 				EF153AC51A48FED000540CC1 /* XViewController.m in Sources */,
 				EF153AC91A491FD000540CC1 /* friendinViewController.m in Sources */,
 				EF8014DD1A5CDD5400AAEB38 /* MusicPlayerViewController.m in Sources */,
+				EFE58AAB1B52A9BB0053F40A /* AutoTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

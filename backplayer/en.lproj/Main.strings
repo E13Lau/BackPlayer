@@ -1,0 +1,57 @@
+
+/* Class = "UITabBarItem"; title = "play"; ObjectID = "3a4-EK-VPG"; */
+"3a4-EK-VPG.title" = "play";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "4SH-qa-bhh"; */
+"4SH-qa-bhh.text" = "Title";
+
+/* Class = "UITabBarItem"; title = "Music"; ObjectID = "5W2-kx-0Mz"; */
+"5W2-kx-0Mz.title" = "Music";
+
+/* Class = "UIButton"; normalTitle = "💿"; ObjectID = "Cwd-vx-P89"; */
+"Cwd-vx-P89.normalTitle" = "💿";
+
+/* Class = "UITabBarItem"; title = "list"; ObjectID = "Lt0-7j-JE2"; */
+"Lt0-7j-JE2.title" = "list";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "MT1-Yk-4jL"; */
+"MT1-Yk-4jL.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "MnM-bM-sGE"; */
+"MnM-bM-sGE.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Pause"; ObjectID = "Zyc-7W-h2o"; */
+"Zyc-7W-h2o.normalTitle" = "Pause";
+
+/* Class = "UIButton"; normalTitle = "🔇"; ObjectID = "bgq-3F-bSP"; */
+"bgq-3F-bSP.normalTitle" = "🔇";
+
+/* Class = "UILabel"; text = "声量"; ObjectID = "dNa-kV-jPG"; */
+"dNa-kV-jPG.text" = "声量";
+
+/* Class = "UIButton"; normalTitle = "Stop"; ObjectID = "dlg-Tc-cUx"; */
+"dlg-Tc-cUx.normalTitle" = "Stop";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "dpj-fz-tsJ"; */
+"dpj-fz-tsJ.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Play"; ObjectID = "khX-4Q-FRR"; */
+"khX-4Q-FRR.normalTitle" = "Play";
+
+/* Class = "UIButton"; normalTitle = "完成"; ObjectID = "nns-Jz-ktU"; */
+"nns-Jz-ktU.normalTitle" = "完成";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "o10-Wv-Qmk"; */
+"o10-Wv-Qmk.title" = "Item";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ubi-yo-FAd"; */
+"ubi-yo-FAd.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "xCx-YQ-iu9"; */
+"xCx-YQ-iu9.text" = "Label";
+
+/* Class = "UITabBarItem"; title = "Item 2"; ObjectID = "y3E-Ok-YSv"; */
+"y3E-Ok-YSv.title" = "Item 2";
+
+/* Class = "UINavigationItem"; title = "发现"; ObjectID = "ysk-tZ-nst"; */
+"ysk-tZ-nst.title" = "发现";

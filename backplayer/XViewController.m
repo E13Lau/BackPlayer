@@ -11,6 +11,7 @@
 #import "musicTableViewController.h"
 #import "nearPeopleViewController.h"
 #import "NearGroundViewController.h"
+#import "AutoTableViewController.h"
 
 @interface XViewController () {
     NSMutableArray * menudata;
@@ -86,7 +87,11 @@
     }
     if (indexPath.section == 2) {
         if (indexPath.row == 0) {
-            NSLog(@"附近场馆");
+            UIStoryboard *secondStoryboard = [UIStoryboard storyboardWithName:@"AutoStoryboard" bundle:nil];
+            
+            UIViewController *firstVC = [secondStoryboard instantiateViewControllerWithIdentifier:@"firstVC"];
+            
+            [self.navigationController pushViewController:firstVC animated:YES];
         }else if (indexPath.row == 1) {
             NSLog(@"附近群组");
             NearGroundViewController * controller = [NearGroundViewController new];

@@ -1,11 +1,1 @@
-# BackPlayer
-- friendinViewController.h
- - 不使用自动布局的一种根据Label的高度动态修改TableViewCell高度
-- ViewController.h
- - 音乐播放不完全实现
-- XYZGGViewController.h
- - UICollectionView的使用
-- MusicPlayerViewController.h
- - 音乐播放不完全实现
-- nearPeopleViewController.h
- - 修改bounds实现View上移
+#backplayer

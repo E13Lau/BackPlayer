@@ -24,6 +24,7 @@
 @property (strong, nonatomic) IBOutlet UIButton *downButton;  //倒Button
 @property (strong, nonatomic) IBOutlet UIButton *ShareButton;  //分享Button
 @property (strong, nonatomic) IBOutlet UIButton *commentButton;   //评论Button
+@property (strong, nonatomic) IBOutlet UIImageView *contentImageView;   //评论Button
 
 @property (strong, nonatomic) IBOutlet UIView *moreThenView;
 

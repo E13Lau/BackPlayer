@@ -50,7 +50,9 @@
 -(void)setSakura:(Sakura *)sakura {
     CGRect avatarRect = CGRectMake(5, 5, sakuraTableViewCellAvatarWidth, sakuraTableViewCellAvatarHeight);
     self.avatarImageView.image = [UIImage imageNamed:sakura.profileImageUrl];
-    self.avatarImageView.frame = avatarRect;
+//    self.avatarImageView.frame = avatarRect;
+    
+    self.contentImageView.image = [UIImage imageNamed:sakura.profileImageUrl];
     
     self.userNameLabel.text = sakura.userName;
     self.createTimeLabel.text = sakura.createAt;
@@ -63,6 +65,7 @@
     self.moreThenView.frame = CGRectMake(0, [self setHeight:self.contentLabel.text].height+85, 310, 38);   //底部ButtonView
     
     self.Labelheight = [self setHeight:self.contentLabel.text].height+127;   //contentLabel高度
+    [self layoutIfNeeded];
 }
 
 -(CGSize)setHeight:(NSString *)string {

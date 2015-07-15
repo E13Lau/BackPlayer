@@ -18,6 +18,7 @@
         self.createAt = dic[@"createAt"];
         self.source = dic[@"source"];
         self.text = dic[@"text"];
+        
     }
     return self;
 }
